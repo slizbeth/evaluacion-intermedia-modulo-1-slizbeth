@@ -59,7 +59,7 @@ html{
 @media all and (min-width: 768px){
     .header_page {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }   
     
     .box-logo{
@@ -71,11 +71,7 @@ html{
     }
 
     .nav_page{
-        margin: 40px 0 10px 0;
-    }
-
-    .menu{
-        justify-content: flex-end;
+        margin: 40px 30px 10px 0;
     }
 
 }
