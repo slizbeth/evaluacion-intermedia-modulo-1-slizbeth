@@ -70,4 +70,12 @@ html{
         font-size: 2.5rem;
     }
 
+    .nav_page{
+        margin: 40px 0 10px 0;
+    }
+
+    .menu{
+        justify-content: flex-end;
+    }
+
 }
