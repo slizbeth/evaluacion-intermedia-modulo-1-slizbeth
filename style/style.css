@@ -1,3 +1,44 @@
-body{
-    background-color: aquamarine;
+html{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.header_base, .menu{
+    border: 1px solid rgb(209, 44, 44);
+   
+}
+
+.main_page{
+    background-color: #3CDBC0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title{
+    color:#FFFFFF;
+}
+
+.header_base{
+   
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top:10px;
+}
+
+.logo{
+    width: 155px;
+}
+
+.menu{
+    color: #4a4a4a;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 45px;
+    margin: 0;
+    padding: 0;
 }
